@@ -26,10 +26,15 @@ body {
   font-family: momcakeBold;
 }
 
+body img {
+  width: 45px;
+}
+
 body header {
   width: 100%;
   background-color: #f6f6f6;
   color: #1d1d1b;
+  font-size: 1.2rem;
   padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,11 +46,36 @@ body header {
           align-items: center;
 }
 
-body header img {
-  width: 50px;
+body header .header-button {
+  border: 2px solid #1d1d1b;
+  padding: 1rem 2.5rem;
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
 }
 
-.Main {
+body header .header-button:hover {
+  cursor: pointer;
+  background-color: #f8d21c;
+}
+
+body .Main {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .Main img {
+  width: 60px;
 }
 /*# sourceMappingURL=styles.css.map */
