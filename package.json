@@ -1,0 +1,24 @@
+{
+  "name": "bruno-dasilva-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brunno-DaSilva/landing-page-bruno-dasilva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brunno-DaSilva/landing-page-bruno-dasilva/issues"
+  },
+  "homepage": "https://github.com/Brunno-DaSilva/landing-page-bruno-dasilva#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0"
+  }
+}
