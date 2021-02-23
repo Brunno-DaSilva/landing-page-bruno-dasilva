@@ -48,12 +48,14 @@ body {
       }
     }
   }
+
   .Main {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 
     .Main__logo {
       margin: 2rem;
@@ -137,7 +139,6 @@ body {
       align-items: center;
       position: relative;
       transition-duration: 0.15s;
-      border: 1px solid red;
 
       div {
         display: flex;
@@ -183,6 +184,56 @@ body {
         padding: 0.015rem 1rem;
         transform: rotate(-5deg);
         z-index: 99;
+      }
+    }
+    .Main__hero-background {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid red;
+      position: absolute;
+      top: 25%;
+      left: 0;
+
+      div {
+        font-size: 18rem;
+        color: #000;
+        z-index: 80;
+      }
+
+      .text-stroke__one {
+        position: absolute;
+        top: -5%;
+        left: 0%;
+        color: transparent;
+        background-color: transparent;
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+      }
+      .text-stroke__two {
+        position: absolute;
+        top: 24%;
+        left: 0%;
+        color: transparent;
+        background-color: transparent;
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+      }
+
+      .text-solid__one {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+      }
+      .text-solid__two {
+        position: absolute;
+        top: 38%;
+        left: 0%;
       }
     }
   }
