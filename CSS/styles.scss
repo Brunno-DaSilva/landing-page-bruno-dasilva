@@ -199,9 +199,10 @@ body {
       left: 0;
 
       div {
-        font-size: 18rem;
+        font-size: 20rem;
         color: #000;
         z-index: 80;
+        letter-spacing: -12px;
       }
 
       .text-stroke__one {
@@ -234,6 +235,37 @@ body {
         position: absolute;
         top: 38%;
         left: 0%;
+      }
+    }
+
+    .Main__footer {
+      position: absolute;
+      top: 124%;
+      width: 100%;
+      min-height: 30vh;
+      background: #000;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      .button {
+        border: 1px solid #f6f6f6;
+        padding: 1.5rem 2.5rem;
+        margin: 2rem 0.5rem;
+
+        a {
+          color: #f6f6f6;
+          font-size: 1.5rem;
+          text-decoration: none;
+          list-style: none;
+        }
+      }
+      .yellow {
+        background: #f8d21c;
+        a {
+          color: #1d1d1b;
+        }
       }
     }
   }
