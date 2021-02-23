@@ -15,4 +15,4 @@ Recreating the Javascript World conference Landing page.
 
 ---
 
-#### Demo:
+#### Demo: https://brunno-dasilva.github.io/landing-page-bruno-dasilva/index.html
