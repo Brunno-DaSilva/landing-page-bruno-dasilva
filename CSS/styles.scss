@@ -55,8 +55,76 @@ body {
     justify-content: center;
     align-items: center;
 
-    img {
-      width: 60px;
+    .Main__logo {
+      margin: 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      .logo__text {
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .bs {
+          font-size: 8.5rem;
+          line-height: 1px;
+          font-family: momcakeBold;
+        }
+
+        p {
+          font-size: 3rem;
+          line-height: 1.8rem;
+          font-family: momcakeThin;
+        }
+      }
+      .line-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 130px;
+        border: 1px solid lime;
+        border-radius: 50%;
+        background-color: #f6f6f6;
+
+        .line-two {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 128px;
+          height: 128px;
+          border: 4px solid #1d1d1b;
+          border-radius: 50%;
+        }
+        .line-three {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 128px;
+          height: 128px;
+          border: 2px solid #be083f;
+          border-radius: 50%;
+        }
+        .line-four {
+          border: 8px solid #f6f6f6;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #f8d21c;
+          width: 98px;
+          height: 98px;
+          border-radius: 50%;
+        }
+      }
+
+      img {
+        width: 30px;
+      }
     }
   }
 }
