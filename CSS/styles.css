@@ -184,4 +184,89 @@ body .Main .Main__logo .line-one .line-four {
 body .Main .Main__logo img {
   width: 30px;
 }
+
+body .Main .Main__hero-description {
+  margin-top: 2rem;
+  width: 80%;
+  min-height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  border: 1px solid red;
+}
+
+body .Main .Main__hero-description div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  background-color: #000;
+  color: #f6f6f6;
+  font-size: 12vh;
+  padding: 0.5rem 1.25rem;
+  margin: 0.5rem;
+  white-space: nowrap;
+  -webkit-box-shadow: 0 2px 5vh 0 black;
+          box-shadow: 0 2px 5vh 0 black;
+  line-height: 9vh;
+}
+
+body .Main .Main__hero-description .description__one {
+  top: -5%;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  z-index: 99;
+}
+
+body .Main .Main__hero-description .description__two {
+  top: 25%;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  z-index: 99;
+}
+
+body .Main .Main__hero-description .description__three {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+  z-index: 99;
+}
+
+body .Main .Main__hero-description .description__four {
+  position: absolute;
+  top: 75%;
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
+  z-index: 99;
+}
+
+body .Main .Main__hero-description .description__five {
+  position: absolute;
+  top: 98%;
+  font-size: 8vh;
+  padding: 0.015rem 1rem;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  z-index: 99;
+}
 /*# sourceMappingURL=styles.css.map */
