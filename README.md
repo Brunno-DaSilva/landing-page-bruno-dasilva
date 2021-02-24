@@ -17,6 +17,10 @@ Recreating the Javascript World conference Landing page.
 
 <img src="./CSS/Images/ORIGINAL.png" alt="Original screenshot">
 
+##### Visit Their page:
+
+- [JS World Conference](https://frontenddeveloperlove.com/)
+
 ---
 
 #### Demo: https://brunno-dasilva.github.io/landing-page-bruno-dasilva/index.html
